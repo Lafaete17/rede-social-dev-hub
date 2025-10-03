@@ -1,0 +1,35 @@
+
+
+
+#logo {
+  color: #499ae6; /* Azul */
+  font-weight: bold;
+}
+
+.navbar-brand span:last-child {
+  color: #00C897; /* Verde */
+  font-weight: bold;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #0A4D8C, #00C897) !important;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
+.btn-devhub {
+  background: linear-gradient(90deg, #0A4D8C, #00C897);
+  color: #fff;
+  border: none;
+}
+
+.btn-devhub:hover {
+  opacity: 0.9;
+}
