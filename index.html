@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <header> <!--Abertura do header-->
+    <header> <!--header navegação principal-->
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -44,22 +44,73 @@
 
     </header> <!--fechamento do header-->
 
-    <main><!--abertura main-->
-
-        <section>
+    <main class="container mt-4"><!-- (container mt-4)centraliza e dá margens laterais automáticas-->
 
 
-        </section>
+      <div class="row"> <!--(row)cria uma linha (tudo dentro dela se organiza lado a lado)-->
+
+        <!-- (col-md*) define a largura da coluna (soma = 12)-->
+        <div class="col-md-3 bg-light"><!--Linha esquerda-->
+          <div class="card">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+        </div>
 
 
-        <section>
 
-    <article>
+        <div class="col-md-6 position-relative"><!--centro-->
 
-    </article>
+  <!-- Capa -->
+  <div class="capa mb-3">
+    <img src="img/img footer.png" class="img-fluid capa-img" alt="imagem de capa">
+    <div class="perfil">
+        <img src="img/logo-devhub.png" alt="foto de perfil">
 
+    </div>
 
-</section>
+</div>
+
+  <!-- Três cards abaixo -->
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Card 1</h5>
+      <p class="card-text">Conteúdo do primeiro card.</p>
+    </div>
+    <br>
+
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Card 2</h5>
+      <p class="card-text">Conteúdo do segundo card.</p>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Card 3</h5>
+      <p class="card-text">Conteúdo do terceiro card.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="col-md-3 bg-light">
+  <div>
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Meu Perfil</li>
+        <li class="list-group-item">Minhas Comunidades</li>
+        <li class="list-group-item">Configurações</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
     </main> <!--fechamento do main-->
